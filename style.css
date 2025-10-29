@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+:root {
+  --cc: #228C04;
+  --dd: #3B7302;
+  --ee: #F2BB13;
+  --ff: #F29F05;
+  --gg: #FFFFFF;
+  --hh: #050315;
+  --dn: #2C333A;
+  --bd: #B3B9C4;
+}
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

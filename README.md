@@ -1,7 +1,7 @@
 # DevChallenges.io - Simple Feature Section
 
 <div align="center">
-  <img src="./thumbnail.jpg" alt="Simple Feature Section Screenshot" width="600"/>
+  <img src="./thumbnail.webp" alt="Simple Feature Section Screenshot" width="600"/>
 </div>
 
 ## 📋 Overview
