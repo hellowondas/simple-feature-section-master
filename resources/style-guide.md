@@ -1,30 +1,32 @@
-# Simple Digital Menu Style Guide
+# Simple Feature Section Style Guide
 
 ## The Layout
 The Design was created with minimum of the following width:
-- Mobile: 412px - 600px
-- Tablet: 768px - 1024px
-- Desktop: 1350px
+- Mobile: 640px
+- Tablet: 1024px
+- Desktop: 1280px
 
 ## The Colors
-<!--Primary & Secondary Colors-->
-- #228C04
-- #3B7302
-- #F2BB13
-- #F29F05
-- #F2F2F2
-- #050315
-
-<!--Neutral Colors-->
---hh: var(#050315);
---dn: var(#2C333A);
---bd: var(#B3B9C4);
+- rich-black: #121826
+- ash-gray: #9DA3AE
+- light-gray: #E5E7EB
+- gunmetal: #212936
+- alice-blue: #DEE9FC
+- soft-pink: #FBE5E6
+- light-cream: #FCEED8
+- silver-gray: #D2D5DA
 
 ## Typography
-- Work Sans - Headings
-- 22px | 1.375rem
-- fonts.google.com/specimen/Work+Sans
+- Outfit - Heading
+- 600 - Semibold
+- 40px | 2.5rem
+- fonts.google.com/specimen/Outfit
 
-- Lato - Body
-- 17px | 1.0625rem
-- fonts.google.com/specimen/Lato
+- Outfit - Small Heading
+- 600 - Semibold
+- 20px | 1.5rem
+- fonts.google.com/specimen/Outfit
+
+- Outfit - Body text
+- 400px - regular
+- 16px | 1rem
