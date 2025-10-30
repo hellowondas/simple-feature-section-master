@@ -8,19 +8,86 @@
 
 
 :root {
-  --cc: #228C04;
-  --dd: #3B7302;
-  --ee: #F2BB13;
-  --ff: #F29F05;
-  --gg: #FFFFFF;
-  --hh: #050315;
-  --dn: #2C333A;
-  --bd: #B3B9C4;
+  --rich-black: #121826;
+  --ash-gray: #9DA3AE;
+  --light-gray: #E5E7EB;
+  --gunmetal: #212936;
+  --alice-blue: #DEE9FC;
+  --soft-pink: #FBE5E6;
+  --light-cream: #FCEED8;
+  --silver-gray: #D2D5DA;
 }
 
 
 body {
+  max-width: 40em;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: var(--rich-black);
+  background-image: url('resources/Background_image.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+header {
+  font-family: "Outfit", sans-serif;
+  margin: 1.75rem 1.3rem 0 1.3rem;
+  text-align: center;
+}
+
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--light-gray);
+}
+
+
+p {
+  font-size: 1rem;
+  color: var(--ash-gray);
+  margin-top: 13px;
+  font-weight: none;
+}
+
+
+.thegrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+
+.card {
+  background-color: var(--gunmetal);
+  margin: 0 2.5rem;
+  border-radius: .625rem;
+  overflow: hidden;
+}
+
+
+.wrapemoji {
+  width: 1rem;
+  background-color: var(--soft-pink);
+  
+}
+
+
+.inflex {
+  margin: 20px;
+  font-family: "Outfit", sans-serif;
+}
+
+
+.inflex h2 {
+  color: var(--light-gray);
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+
+
+.inflex p {
+  font-weight: 400;
 }
