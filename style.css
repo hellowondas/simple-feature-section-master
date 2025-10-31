@@ -46,9 +46,9 @@ header h1 {
 
 
 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--ash-gray);
-  margin-top: 13px;
+  margin-top: 0.8125rem;
   font-weight: none;
 }
 
@@ -57,6 +57,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+  margin: 2rem 0;
 }
 
 
@@ -69,14 +70,38 @@ p {
 
 
 .wrapemoji {
-  width: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--light-cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+.wrapemoji span {
+  font-size: 0.8rem;
+}
+
+
+.handemoji {
+  background-color: var(--light-cream);
+}
+
+
+.netemoji {
+  background-color: var(--alice-blue);
+}
+
+
+.chatemoji {
   background-color: var(--soft-pink);
-  
 }
 
 
 .inflex {
-  margin: 20px;
+  margin: 1.25rem;
   font-family: "Outfit", sans-serif;
 }
 
@@ -90,4 +115,12 @@ p {
 
 .inflex p {
   font-weight: 400;
+  font-size: 0.9rem;
+}
+
+
+.theimages {
+  width: 100%;
+  margin-top: 1.25rem;
+  border-radius: 0.8rem;
 }
