@@ -72,7 +72,6 @@ p {
 .wrap-emoji {
   width: 2rem;
   height: 2rem;
-  background-color: var(--light-cream);
   display: flex;
   justify-content: center;
   align-items: center;
