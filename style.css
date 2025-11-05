@@ -143,6 +143,8 @@ header p {
   grid-template-columns: repeat(2, minmax(300px, 1fr));
   gap: 3rem;
   margin: 2rem auto;
+  padding: 0;
+  justify-content: center;
 }
 
 
@@ -178,7 +180,8 @@ header p {
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: 3rem;
-  padding: 1rem 6rem;
+  margin: 2rem 5rem;
+  
 }
 
 
