@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: 0;
+  text-decoration: none;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
@@ -161,7 +161,8 @@ header p {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 3rem;
-  align-items: stretch;
+  
+  /* align-items: stretch; */
 }
 
 
@@ -176,6 +177,15 @@ header p {
   max-width: 45%;
 }
 
+
+.card-content h2 {
+  font-size: 1.4rem;
+}
+
+
+.card-content p {
+  font-size: 1.0625rem;
+}
 }
 
 
@@ -199,7 +209,8 @@ header p {
 
 .card-grid {
   flex-wrap: nowrap;
-  align-items: stretch;
+  
+  /* align-items: stretch; */
 }
 
 
@@ -207,5 +218,15 @@ header p {
   flex: 1 1 17.5rem;
   max-width: none;
   margin: 0;
+}
+
+
+.card-content h2 {
+  font-size: 1.4rem;
+}
+
+
+.card-content p {
+  font-size: 1.0625rem;
 }
 }
