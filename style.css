@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -47,24 +48,29 @@ header h1 {
 }
 
 
-p {
+header p {
   font-size: 1rem;
   color: var(--ash-gray);
   margin-top: 0.8125rem;
-  font-weight: none;
+  font-weight: normal;
 }
 
 
 .card-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  margin: 2rem 0;
-  padding: 0 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  padding: 1.5rem;
 }
 
 
 .the-card {
+  flex-basis: 18.75rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 17.5rem;
+  padding: 1.5rem;
   background-color: var(--gunmetal);
   border-radius: .75rem;
   overflow: hidden;
@@ -72,8 +78,8 @@ p {
 
 
 .wrap-emoji {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +88,7 @@ p {
 
 
 .wrap-emoji span {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 
@@ -102,91 +108,103 @@ p {
 
 
 .card-content {
-  margin: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   font-family: "Outfit", sans-serif;
 }
 
 
 .card-content h2 {
   color: var(--light-gray);
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 1.2rem;
 }
 
 
 .card-content p {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  color: var(--ash-gray);
 }
 
 
 .card-image {
   width: 100%;
-  margin-top: 1.25rem;
+  height: auto;
   border-radius: 0.8rem;
+  object-fit: cover;
 }
 
 
+/* Styles For Tablet Devices */
 @media (min-width: 50em) {
+body {
+  max-width: none;
+  padding: 0 4rem;
+}
+
+
 header h1 {
   font-size: 2.5rem;
 }
 
 
 header p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 
 .card-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 3rem;
-  margin: 2rem auto;
-  padding: 0;
-  justify-content: center;
+  align-items: stretch;
 }
+
+
+.the-card {
+  flex: 1 1 17.5rem;
+  border-radius: 1rem;
+} 
 
 
 .card-grid > :last-child {
-  grid-column: 1 / -1;
-  max-width: 46%;
-  margin-left: auto;
-  margin-right: auto;
+  flex: 1 1 100%;
+  max-width: 45%;
 }
+
 }
 
 
-@media (min-width: 64em){
+/* Styles For Desktop Devices */
+@media (min-width: 80em) {
 body {
-  max-width: 75em;
-  background-size: cover;
-  background-position: center;
+  max-width: none;
   justify-content: center;
 }
 
 
 header h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
-  
-  
+
+
 header p {
   font-size: 1.5rem;
 }
-  
-  
+
+
 .card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-  gap: 3rem;
-  margin: 2rem 5rem;
-  
+  flex-wrap: nowrap;
+  align-items: stretch;
 }
 
 
 .card-grid > :last-child {
-  grid-column: auto;
+  flex: 1 1 17.5rem;
   max-width: none;
   margin: 0;
 }
