@@ -35,7 +35,7 @@ This project is a pixel-perfect solution to the [Simple Article Listing](https:/
 
 - How to compress local images from `.jpeg` to `webp` to optimize web perfomance and loading speed
 - Advanced responsive layout techniques with flexbox and media queries
-- Accessibility best practices for semantic markup
+- In creating the web page for tablet devices, i had to use the `flex` properties: `flex-grow` to make a flexible item to grow, `flex-shrink` to make a flex item shrink or reduce and `flex-basis`, this is the set size for the item, before it grows or shrink the flex-basis should be set. This enabled me to make the last card stand alone.
 
 ## 🙏 Acknowledgements
 
