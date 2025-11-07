@@ -193,7 +193,6 @@ header p {
 @media (min-width: 80em) {
 body {
   max-width: none;
-  justify-content: center;
 }
 
 
